@@ -4,12 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campaign Notebook</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div><p>Book will go here</p></div>
-    <div><p>Popout will go here</p></div>
-    <nav>
-      <p>Navbar associated with Popout will go here</p>
+    <div>
+      <img
+        src="./assets/images/book.svg"
+        alt="top down view of a blank spellbook"
+        id="book"
+      />
+    </div>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">menu</i>
+      </a>
       <ul>
         <li><a href="./index.html">HOME</a></li>
         <li><a href="./party.html">PARTY</a></li>
@@ -21,6 +39,8 @@
         <li><a href="./rules.html">RULES</a></li>
         <li><a href="./drawings.html">DRAWINGS</a></li>
       </ul>
-    </nav>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

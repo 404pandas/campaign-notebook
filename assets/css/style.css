@@ -10,6 +10,8 @@
 
 * ELEMENTS
   ## Body
+  ## Header
+  ## Footer
 
 * FLEXBOX
 
@@ -20,10 +22,9 @@
   ## Header Tags
 
 * COMPONENTS
- ## Header
  ## Card
  ## Buttons
- ## Footer
+ ## Book
 
 * HELPERS
  ## Margin Auto
@@ -144,6 +145,13 @@ h5 {
 /* ============================================================ *\
 *                          Components                            *
 \* -----------------------------------------------------------  */
+
+/* ---------------------       Book       --------------------- */
+#book {
+  width: 100%;
+  z-index: -100;
+  position: absolute;
+}
 
 /* ============================================================ *\
 *                         Media Queries                          *
