@@ -68,6 +68,9 @@ a {
 /*          Element Selector to apply background color          */
 body {
   background-color: var(--off-white);
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 a {
@@ -151,6 +154,15 @@ h5 {
   width: 100%;
   z-index: -100;
   position: absolute;
+}
+
+/* ---------------------       Menu Button       --------------------- */
+.fixed-action-btn ul {
+  display: none;
+}
+
+.fixed-action-btn ul.open {
+  display: block;
 }
 
 /* ============================================================ *\
