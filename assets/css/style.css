@@ -1,0 +1,168 @@
+/* ============================================================ *\
+*       Mary Elenius D&D Campaign Notebook Main Stylesheet      *
+*                         04/01/2024                             *
+\* -----------------------------------------------------------  */
+
+/*                     Table of Contents:                       *\
+
+* UNIVERSAL & VARIABLES
+  ## Color Variables
+
+* ELEMENTS
+  ## Body
+
+* FLEXBOX
+
+* TYPOGRAPHY 
+  ## Text wrap
+  ## Font Family
+  ## Code blocks
+  ## Header Tags
+
+* COMPONENTS
+ ## Header
+ ## Card
+ ## Buttons
+ ## Footer
+
+* HELPERS
+ ## Margin Auto
+
+/* ============================================================ *\
+*                     Universal & Variables                      *
+\* -----------------------------------------------------------  */
+
+/*  Universal selector to remove padding & margin and set box-sizing */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*     Universal selector to remove text decoration from li and a    */
+li,
+a {
+  text-decoration: none;
+}
+
+/* ----------------      Color Variables       ---------------- */
+
+/*       Color variables for easy selection throughout CSS      */
+:root {
+  --light-green: #606c38;
+  --dark-green: #283618;
+  --off-white: #fefae0;
+  --light-orange: #dda15e;
+  --dark-orange: #bc6c25;
+}
+
+/* ============================================================ *\
+*                           Elements                             *
+\* -----------------------------------------------------------  */
+
+/* ---------------------       Body       --------------------- */
+
+/*          Element Selector to apply background color          */
+body {
+  background-color: var(--off-white);
+}
+
+a {
+  color: var(--light-orange);
+}
+
+/* ============================================================ *\
+*                           Flexbox                              *
+\* -----------------------------------------------------------  */
+
+/*                Class selector to apply flexbox                */
+.flexbox-turn-on {
+  display: flex;
+}
+
+/* ============================================================ *\
+*                          Typography                            *
+\* -----------------------------------------------------------  */
+
+/* -----------------       Font Family       ------------------ */
+
+/* ------------------       Text Wrap       ------------------- */
+
+/*              Class selector to apply text wrap               */
+.text-wrap {
+  /* Since CSS 2.1 */
+  white-space: pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -moz-pre-wrap;
+  /* Opera 4-6 */
+  white-space: -pre-wrap;
+  /* Opera 7 */
+  white-space: -o-pre-wrap;
+  /* Internet Explorer 5 */
+  word-wrap: break-word;
+}
+
+.no-wrap {
+  /* Since CSS 2.1 */
+  white-space: nowrap;
+  /* Mozilla, since 1999 */
+  white-space: -moz-no-wrap;
+  /* Opera 4-6 */
+  white-space: -no-wrap;
+  /* Opera 7 */
+  white-space: -o-no-wrap;
+  /* Internet Explorer 5 */
+  word-wrap: normal;
+}
+
+/* -----------------       Header Tags       ------------------ */
+
+/*              Class selector to apply font size               */
+h1 {
+  font-size: 2rem;
+  margin: 0 !important;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.75rem;
+}
+
+/* ============================================================ *\
+*                          Components                            *
+\* -----------------------------------------------------------  */
+
+/* ============================================================ *\
+*                         Media Queries                          *
+\* -----------------------------------------------------------  */
+/* ------------------       Up to screen size 600px (Mobile Devices)       ------------------ */
+@media only screen and (max-width: 600px) {
+}
+/* ------------------       At least screen size 600px (Tablet Devices)       ------------------ */
+@media only screen and (min-width: 600px) {
+}
+/* ------------------       At least screen size 992px (Desktop Devices)       ------------------ */
+@media only screen and (min-width: 992px) {
+}
+/* ------------------       Up to screen size 992px (Large Desktop Devices)       ------------------ */
+@media only screen and (min-width: 1200px) {
+}
+
+/* ============================================================ *\
+*                        Example Heading                         *
+\* -----------------------------------------------------------  */
+
+/* -------------       Example Sub-Heading       --------------- */
