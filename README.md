@@ -22,7 +22,7 @@
   <h2>Dungeons & Dragons Campaign Notebook</h2>
   <a href="https://github.com/404pandas/campaign-notebook"><strong>Explore the docs »</strong></a>
   <br />
-  <a href="https://github.com/404pandas/campaign-notebook">View Demo(Coming Soon)</a>
+  <a href="https://404pandas.github.io/campaign-notebook/">View Demo</a>
   ·
   <a href="https://github.com/404pandas/campaign-notebook/issues">Report Bug</a>
   ·
@@ -220,7 +220,7 @@ Project Links:
 
 [Github Repository](https://github.com/404pandas/campaign-notebook)
 
-[Deployment- link coming soon]()
+[Deployment](https://404pandas.github.io/campaign-notebook/)
 
 <!-- ACKNOWLEDGMENTS -->
 
