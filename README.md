@@ -170,12 +170,17 @@ Once the app is functional, screenshots will be added in this section.
 ### Wireframes
 
 [Click here for the visme wireframe used for the images below](https://my.visme.co/view/6x3d06g6-dnd-note-taking-app)
-<img src="./assets/images/all-pages.png" alt="Wireframe for all the pages except rules and sketches">
-<img src="./assets/images/landing.png" alt="Wireframe for landing page">
-<img src="./assets/images/layout.png" alt="Wireframe for rough layout">
-<img src="./assets/images/pop-out.png" alt="Wireframe for pop-out hamburger nav">
-<img src="./assets/images/rules.png" alt="Wireframe for rules/handbook section">
-<img src="./assets/images/sketches.png" alt="Wireframe for sketches">
+
+<div align="center">
+
+<img src="./assets/images/layout.png" alt="Wireframe for rough layout" width="70%" height="70%"><br>
+<img src="./assets/images/landing.png" alt="Wireframe for landing page" width="70%" height="70%"><br>
+<img src="./assets/images/pop-out.png" alt="Wireframe for pop-out hamburger nav" width="80%" height="90%"><br>
+<img src="./assets/images/all-pages.png" alt="Wireframe for all the pages except rules and sketches" width="70%" height="70%"><br>
+<img src="./assets/images/rules.png" alt="Wireframe for rules/handbook section" width="70%" height="90%"><br>
+<img src="./assets/images/sketches.png" alt="Wireframe for sketches" width="70%" height="70%">
+
+</div>
 
 See the [open issues](https://github.com/404pandas/campaign-notebook/issues) for a full list of proposed features (and known issues).
 
