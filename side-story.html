@@ -17,31 +17,79 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="flexbox-turn-on">
+    <div id="fix" class="flexbox-turn-on">
       <img
         src="./assets/images/book.svg"
         alt="top down view of a blank spellbook"
         id="book"
       />
-      <div class="fixed-action-btn">
-        <a class="btn-floating btn-large red">
-          <i class="large material-icons">menu</i>
-        </a>
-        <ul>
-          <li><a href="./index.html">HOME</a></li>
-          <li><a href="./party.html">PARTY</a></li>
-          <li><a href="./inventory.html">INVENTORY</a></li>
-          <li><a href="./npcs.html">NPCS</a></li>
-          <li><a href="./locations.html">LOCATIONS</a></li>
-          <li><a href="./story.html">MAIN STORY</a></li>
-          <li><a href="./side-story.html">SIDE STORY</a></li>
-          <li><a href="./rules.html">RULES</a></li>
-          <li><a href="./drawings.html">DRAWINGS</a></li>
-        </ul>
+      <div class="row" id="work-please">
+        <!-- Left column -->
+        <div class="col s6 height-fix">
+          <div id="rotate">
+            <h2 class="spaces" id="left-line">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </h2>
+          </div>
+          <!-- Edit button -->
+          <a class="waves-effect waves-light btn quill-btn edit"
+            ><i class="material-icons right">history_edu</i>edit</a
+          >
+        </div>
+        <!-- End of left column -->
+        <!-- Right column -->
+        <div class="col s6 height-fix">
+          <!-- Date -->
+          <h4 id="current-date-timecw"></h4>
+          <!-- Page title -->
+          <div id="rotate">
+            <h2 class="spaces">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </h2>
+            <h2 id="page-title-lines"></h2>
+            <h2 class="spaces">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </h2>
+          </div>
+          <!-- end of page title -->
+          <!-- Add button -->
+          <a class="waves-effect waves-light btn quill-btn"
+            ><i class="material-icons right">history_edu</i>add</a
+          >
+        </div>
+        <!-- End of right column -->
+        <!-- Arrows -->
+        <div class="col s12 flexbox-turn-on" id="footer">
+          <a class="waves-effect waves-light btn arrow-btn"
+            ><i class="material-icons arrows">undo</i></a
+          >
+          <a class="waves-effect waves-light btn arrow-btn"
+            ><i class="material-icons arrows">redo</i></a
+          >
+        </div>
+        <!-- End of arrows -->
       </div>
     </div>
-
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">menu</i>
+      </a>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./party.html">PARTY</a></li>
+        <li><a href="./inventory.html">INVENTORY</a></li>
+        <li><a href="./npcs.html">NPCS</a></li>
+        <li><a href="./locations.html">LOCATIONS</a></li>
+        <li><a href="./story.html">MAIN STORY</a></li>
+        <li><a href="./side-story.html">SIDE STORY</a></li>
+        <li><a href="./rules.html">RULES</a></li>
+        <li><a href="./drawings.html">DRAWINGS</a></li>
+      </ul>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs/dist/dayjs.min.js"></script>
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

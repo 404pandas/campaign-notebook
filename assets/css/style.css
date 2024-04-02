@@ -145,6 +145,37 @@ h5 {
   font-size: 0.75rem;
 }
 
+#fix {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+#rotate {
+  transform: rotate(-90deg);
+  display: flex;
+  position: relative;
+  top: 50%;
+  right: 37%;
+}
+#rotate h2 {
+  margin: 0% 10% 0% 10%;
+}
+.spaces {
+  text-decoration: line-through;
+}
+.height-fix {
+  height: 60vh;
+  margin-top: 30%;
+}
+#work-please {
+  width: 55%;
+  margin-right: 27%;
+}
+#left-line {
+  position: absolute;
+  bottom: 3vh;
+}
+
 /* ============================================================ *\
 *                          Components                            *
 \* -----------------------------------------------------------  */
@@ -156,13 +187,51 @@ h5 {
   position: absolute;
 }
 
-/* ---------------------       Menu Button       --------------------- */
+/* ---------------------       Buttons       --------------------- */
 .fixed-action-btn ul {
   display: none;
 }
 
 .fixed-action-btn ul.open {
   display: block;
+}
+
+/* Quil Button */
+.quill-btn {
+  position: absolute;
+  top: 18%;
+  right: 23%;
+  background-color: transparent;
+  box-shadow: unset;
+  color: black;
+}
+
+i.right {
+  margin-left: 5px;
+}
+
+.edit {
+  right: 57%;
+}
+
+.arrow-btn {
+  background-color: transparent;
+  box-shadow: unset;
+}
+
+/* arrows */
+.arrows {
+  font-size: 4rem !important;
+}
+
+#footer {
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+/* time */
+#current-date-time {
+  text-align: end;
 }
 
 /* ============================================================ *\

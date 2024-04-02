@@ -143,14 +143,14 @@ Once the app is functional, screenshots will be added in this section.
   - [ ] General Layout
 
     - [x] HTML Skeleton
-    - [ ] Book
+    - [x] Book
     - [ ] Tabs
-      - [ ] Arrows
+      - [x] Arrows
       - [ ] Discs
-    - [ ] Pop Out Menu
-    - [ ] Add button
-    - [ ] Edit button
-    - [ ] Vertical Page title
+    - [x] Pop Out Menu
+    - [x] Add button
+    - [x] Edit button
+    - [x] Vertical Page title
     - [ ] Font
 
   - [ ] Party
